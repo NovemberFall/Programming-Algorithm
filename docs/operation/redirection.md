@@ -1,4 +1,4 @@
-# redirection | standard output
+# read write |open() | lseek | redirection | standard output
 
 - open() function
   - O_RDONLY   :   Open for reading only.
