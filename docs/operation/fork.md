@@ -108,7 +108,7 @@ fork();
 
 - For example:
 
-```c
+```cpp
 #include<stdio.h>
 #include<stdlib.h>
 #include <unistd.h>

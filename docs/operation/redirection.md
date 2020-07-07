@@ -19,7 +19,7 @@
 
 ### standard ouput
 
-```c
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -106,7 +106,7 @@ int main(int argc, char *argv[]){
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 
-```c
+```cpp
 void func(char arr[], int n)
 {
     // Open the file for READ only.
@@ -163,9 +163,10 @@ read one char from start.txt through arr[0] is: R, S
 ---
 ## lseek() : system call
 
-```c
+```cpp
 // C program to read nth byte of a file and
 // copy it to another file using lseek
+
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/types.h>

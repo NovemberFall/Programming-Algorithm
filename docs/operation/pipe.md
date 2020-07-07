@@ -36,7 +36,7 @@
 
 ![](img/2020-06-28-22-10-41.png)
 
-```c
+```cpp
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
@@ -72,7 +72,7 @@ PARENT: read "test"
 
 - another example:
 
-```c
+```cpp
 // C program to demonstrate use of fork() and pipe()
 #include<stdio.h>
 #include<stdlib.h>

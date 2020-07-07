@@ -36,7 +36,7 @@
 
 - now looking at the following example:
 
-```c
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -89,7 +89,7 @@ hello, I am parent of 22834 (wc:22834) (pid:22833)
   - this time, by calling `execvp()`, child process never run old original program, it 
     runs itself program.
 
-```c
+```cpp
 int main(int argc, char *argv[]){
     printf("hello world (pid:%d)\n", (int) getpid());
     int rc = fork();
@@ -148,7 +148,7 @@ hello, I am parent of 23117 (wc:23117) (pid:23116)
 
 ## how to use `execlp()`
 
-```c
+```cpp
 #include "apue.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -207,7 +207,7 @@ int main(void)
   the new process image overlays the calling process image. However, `-1` is returned if 
   the call to `execlp` is unsuccessful.
 
-```c
+```cpp
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -235,7 +235,7 @@ int main(int argc, char *argv[]){
 
 - if `execlp()` doesn't run successfully, see:
 
-```c
+```cpp
 int main(int argc, char *argv[]){
     pid_t pid;
     pid = fork();

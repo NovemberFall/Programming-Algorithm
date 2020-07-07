@@ -18,7 +18,7 @@ using the lowest-numbered unused file descriptor for the new descriptor.
 
 #### example:
 
-```c
+```cpp
 // program to illustrate dup2() 
 #include<stdlib.h> 
 #include<unistd.h> 
@@ -45,7 +45,7 @@ return 0;
 
 - if change `newfd` to 1, standard input, 将会打印在 out.txt
 
-```c
+```cpp
 int main() 
 { 
 	int file_desc = open("out.txt",O_WRONLY | O_APPEND); 
