@@ -51,7 +51,6 @@
     * [Day14 LinkedList](csBasic/LinkedList.md)
     * [Class1 Binary Search](csFlagship/binarySearch.md)
     * [Class3 Linked List](csFlagship/LinkedList.md)
-    * [Class4 Queue & Stack](csFlagship/queueStack.md)
     * [Class5 Binary Tree & Binary Search Tree](csFlagship/BST.md)
     * [Class6 Heap & Graph Search Algorithms |](csFlagship/heap.md)
         * [P9 Heap (PriorityQueue)](csPractice/heap_pq.md)

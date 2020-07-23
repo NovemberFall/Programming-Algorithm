@@ -16,11 +16,19 @@ L = 1 -> 2 -> 3 -> null, return 3 -> 2 -> 1 -> null
 ```java
 ListNode prev, cur, next
 
-*********************************************
 start iteratively reverse:
+*********************************************
 
-prev    cur    next
+next
+prev
+        cur    
         [1] -> [2] -> [3] -> null
+
+
+prev
+        cur    next
+        [1] -> [2] -> [3] -> null
+
 
         cur    next
 prev <- [1]    [2] -> [3] -> null
@@ -95,7 +103,6 @@ public class Solution {
     return prev;
   }
 }
-
 ```
 
 
