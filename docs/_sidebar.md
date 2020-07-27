@@ -66,6 +66,7 @@
     * [2D array character](C_Pro/char.md)
     * [fget()](C_Pro/fget.md)
 * [Operation System | c](operation/intro.md)
+    * [Memory API | Address Space | Memory Leak](operation/memory.md)
     * [argc | argv | **argv](operation/argc.md)
     * [ssize_t | size_t](operation/ssize_t.md)
     * [fork() | !fork()](operation/fork.md)
