@@ -74,3 +74,4 @@
     * [read write |open() | lseek | redirection | standard output](operation/redirection.md)
     * [dup()/dup()2 | file descriptor](operation/dup.md)
     * [pipe](operation/pipe.md)
+    * [Concurrency, Thread Interface(API), Locks](operation/thread.md)
