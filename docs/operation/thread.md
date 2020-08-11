@@ -48,15 +48,42 @@
   - The register state of T2 restored
   - The address space remains the same.
  
+---
+
+#### There will be one stack per thread
+
+![](img/2020-08-10-04-02-21.png)
+
+- both the `program counter` and `stack` don't get shared between threads.
+
+---
+
+## Critical Section (临界区)
+
+- A piece of code that accesses a shared variable and must not be 
+  concurrently executed by more than one thread.
+  - Need to support atomicity for critical sections (mutual exclusion)
+  - Multiple threads executing critical section can result in a 
+    race condition(竞争条件):
+    - Two or more operations are done at the same time, but they needed 
+      to be done sequentially to give the correct result
+ 
+---
+
+## Locks
+
+- Ensure that any such critical section(临界区) executes as if it were a single
+  atomic instruction (execute a series of instructions atomically).
+ 
+![](img/2020-08-10-16-51-28.png)
 
 
+-  Multi-Threaded programs run faster on multi-processors or many cores
+
+![](img/2020-08-10-16-52-54.png)
 
 
-
-
-
-
-
+![](img/2020-08-10-16-58-12.png)
 
 
 
