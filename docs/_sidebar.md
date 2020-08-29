@@ -75,3 +75,5 @@
     * [dup()/dup()2 | file descriptor](operation/dup.md)
     * [pipe](operation/pipe.md)
     * [Concurrency, Thread Interface(API), Locks](operation/thread.md)
+* [ Computer Architecture](computer/intro.md)
+    * [Background knowledge](computer/know.md)
