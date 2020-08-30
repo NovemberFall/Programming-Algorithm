@@ -56,4 +56,9 @@
 
 - result: `1A6`
 
+---
+
+
+
+## Binary Addition
 
