@@ -73,6 +73,41 @@
 
 ![](img/2020-08-29-18-38-40.png)
 
+---
+
+
+
+## Converting Signed Decimal to Binary
+
+- e.g The binary representation of decimal `−43`
+  - The binary representation of unsigned `43` is `00101011`
+  - Because the original value was `negative`, we create the two’s complement of `00101011`,
+    which is `11010101`. This is the representation of `−43` decimal.
+
+
+---
+
+
+#### e.g The sum of 3AB4h and 0429h
+
+![](img/2020-08-30-14-01-22.png)
+
+
+```ruby
+    3AB4h
++   0429h
+-------------
+
+
+
+    0011    1010    1011    0100
++   0000    0100    0010    1001
+----------------------------------
+    0011    1110    1101    1101
+
+
+= 3EDDh
+```
 
 
 
