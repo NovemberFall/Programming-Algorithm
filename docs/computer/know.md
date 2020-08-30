@@ -136,6 +136,8 @@
 ![](img/2020-08-30-14-49-02.png)
 
 
+---
+
 
 - e.g. `10000000`
 
@@ -143,6 +145,12 @@
 
 ---
 
+
+## The unsigned decimal representation of the hexadecimal integer 3A
+
+![](img/2020-08-30-15-10-08.png)
+
+---
 
 ## The 8-bit binary (two’s-complement) representation of the signed decimal
 
@@ -163,3 +171,6 @@ Reverse     1110    1111
 ----------------------------
             1111    0000
 ```
+
+
+
