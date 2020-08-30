@@ -8,6 +8,10 @@
 
 
 - zeor flag
+  - the zero flag is quite simple if the result of the operation is a zero the zero flag will 
+    be set otherwise it will be clear
+
+
 
 
 
@@ -34,6 +38,15 @@
 
 ---
 
+## how to convert decimal to Hexadeciaml
+
+![](img/2020-08-29-18-09-24.png)
+
+- e.g : Convert the number `1128` DECIMAL to HEXADECIMAL
+  - step 1:  1128 / 16       result: 70           remainder(in hexadeciaml) : 8
+  - step 2:  70 / 16       result: 4           remainder(in hexadeciaml) : 6
+  - step 3:  4 / 16       result: 0           remainder(in hexadeciaml) : 4
+  - so the final result: `468`
 
 
 
