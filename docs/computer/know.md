@@ -148,8 +148,18 @@
 
 - e.g. `-16`
 
+![](img/2020-08-30-15-05-45.png)
 
+- The binary representation of `16` is `0001 0000`
 
 ```ruby
+Two's compliment:
 
+            0001    0000
+
+Reverse     1110    1111
+
++                      1
+----------------------------
+            1111    0000
 ```
