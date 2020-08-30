@@ -172,5 +172,16 @@ Reverse     1110    1111
             1111    0000
 ```
 
+---
+
+
+## The hexadecimal and decimal representations of the ASCII character
+
+
+![](img/2020-08-30-15-25-04.png)
+
+- for capital `B` is `42h` and `66d`
+
+---
 
 
