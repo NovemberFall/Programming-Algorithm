@@ -48,6 +48,12 @@
   - step 3:  4 / 16       result: 0           remainder(in hexadeciaml) : 4
   - so the final result: `468`
 
+---
 
+- another e.g.
+  
+![](img/2020-08-29-18-13-29.png)
+
+- result: `1A6`
 
 
