@@ -1,3 +1,12 @@
+## MSB and LSB
+
+![](img/2020-08-30-14-14-13.png)
+
+---
+
+
+
+
 ## flag
 
 - Which flag is set when the result of a signed arithmetic operation(算术运算) is either too large or 
@@ -115,6 +124,10 @@
 ## Boolean Expressions
 
 ![](img/2020-08-30-14-06-13.png)
+
+
+---
+
 
 
 
