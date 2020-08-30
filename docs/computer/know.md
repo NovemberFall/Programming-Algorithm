@@ -62,3 +62,19 @@
 
 ## Binary Addition
 
+
+
+## Two’s-Complement Representation
+
+![](img/2020-08-29-18-37-09.png)
+
+
+- Converting Signed Binary to Decimal
+
+![](img/2020-08-29-18-38-40.png)
+
+
+
+
+
+
