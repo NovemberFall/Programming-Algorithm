@@ -129,6 +129,21 @@
 ---
 
 
+## The decimal representation of the signed binary number
+
+- e.g. `10110101`
+
+![](img/2020-08-30-14-49-02.png)
+
+
+
+- e.g. `10000000`
+
+![](img/2020-08-30-14-50-36.png)
+
+---
+
+
 
 
 
