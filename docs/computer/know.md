@@ -144,6 +144,12 @@
 ---
 
 
+## The 8-bit binary (two’s-complement) representation of the signed decimal
+
+- e.g. `-16`
 
 
 
+```ruby
+
+```
