@@ -82,4 +82,6 @@
 
 -----
 * [Machine Learning](mlearning/intro.md)
-    * [Jupyter Notebook env](mlearning/env.md)
+    * [Linear Model](mlearning/linear.md)
+
+
