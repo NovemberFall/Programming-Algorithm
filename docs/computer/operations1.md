@@ -96,8 +96,8 @@
 
 ---
 
-- The instruction complementary to load is traditionally called store; it copies data from a register to 
-  memory. The format of a store is similar to that of a load: the name of the operation, followed by the 
+- The instruction complementary to load is traditionally called store; `it copies data from a register to` 
+  `memory`. The format of a store is similar to that of a load: the name of the operation, followed by the 
   register to be stored, then offset to select the array element, and finally the base register. Once again, 
   the MIPS address is specified in part by a constant and in part by the contents of a register. The actual 
   MIPS name is `sw`, standing for **store word**.
@@ -114,4 +114,41 @@
 ![](img/2020-09-14-22-30-42.png)
 
 ![](img/2020-09-14-22-32-03.png)
+
+![](img/2020-09-14-22-48-23.png)
+
+![](img/2020-09-14-22-52-56.png)
+
+---
+
+- Load word and store word are the instructions that copy words between memory and registers in the MIPS 
+  architecture. Other brands of computers use other instructions along with load and store to transfer data. 
+  An architecture with such alternatives is the Intel x86
+
+![](img/2020-09-14-23-10-46.png)
+
+---
+
+![](img/2020-09-14-23-12-51.png)
+
+![](img/2020-09-14-23-15-08.png)
+
+![](img/2020-09-14-23-17-17.png)
+
+
+![](img/2020-09-14-23-21-56.png)
+
+![](img/2020-09-14-23-22-42.png)
+
+![](img/2020-09-14-23-26-26.png)
+
+![](img/2020-09-14-23-27-36.png)
+
+![](img/2020-09-14-23-30-20.png)
+
+---
+
+![](img/2020-09-14-23-31-58.png)
+
+
 
