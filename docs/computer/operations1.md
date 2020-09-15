@@ -62,7 +62,52 @@
 
 ![](img/2020-09-14-13-28-07.png)
 
+---
 
+
+###  Hardware/Software Interface
+
+- In addition to associating variables with registers, the compiler allocates data structures like arrays and 
+  structures to locations in memory. The compiler can then place the proper starting address into the data 
+  transfer instructions.
+
+- Since 8-bit bytes are useful in many programs, virtually all architectures today address individual bytes. 
+  Therefore, the address of a word matches the address of one of the 4 bytes within the word, and addresses of 
+  sequential words differ by 4.
+
+- In MIPS, words must start at addresses that are multiples of 4. This requirement is called an 
+  `alignment restriction 调整限制`, and many architectures have it. 
+  - Alignment restriction: A requirement that data be aligned in memory on natural boundaries.
+
+![](img/2020-09-14-21-22-26.png)
+
+![](img/2020-09-14-21-23-05.png)
+
+![](img/2020-09-14-21-23-44.png)
+
+
+- Computers divide into those that use the address of the leftmost or "big end" byte as the 
+  word address (_big endian_) versus those that use the rightmost or "little end" byte (_little endian_).
+
+
+![](img/2020-09-14-21-49-30.png)
+
+![](img/2020-09-14-21-49-51.png)
+
+---
+
+- The instruction complementary to load is traditionally called store; it copies data from a register to 
+  memory. The format of a store is similar to that of a load: the name of the operation, followed by the 
+  register to be stored, then offset to select the array element, and finally the base register. Once again, 
+  the MIPS address is specified in part by a constant and in part by the contents of a register. The actual 
+  MIPS name is `sw`, standing for **store word**.
+
+
+![](img/2020-09-14-22-20-28.png)
+
+---
+
+![](img/2020-09-14-22-25-47.png)
 
 
 
