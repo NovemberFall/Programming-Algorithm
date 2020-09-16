@@ -42,4 +42,6 @@
   complementing each bit (0 → 1 or 1 → 0), and then adding one to the result 
 
 
+![](img/2020-09-16-15-23-29.png)
+
 
