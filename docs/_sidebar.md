@@ -82,6 +82,7 @@
     * [2.1 Introduction](computer/introduction.md)
     * [2.2 Operations of the computer hardware](computer/operations.md)
     * [2.3 Operations of the computer hardware ||](computer/operations1.md)
+    * [2.4 Signed and unsigned numbers](computer/numbers.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
