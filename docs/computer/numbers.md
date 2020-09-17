@@ -52,4 +52,13 @@
 
 ![](img/2020-09-17-13-47-46.png)
 
+![](img/2020-09-17-13-59-38.png)
+
+
+### how to convert a binary number represented in n bits to a number represented with more than n bits?
+
+![](img/2020-09-17-14-05-29.png)
+
+![](img/2020-09-17-14-06-00.png)
+
 
