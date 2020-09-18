@@ -9,11 +9,11 @@ https://novemberfall.github.io/programming
 
 ## 大前端 全栈之巅！
 
-## 记录我的前端癫狂之路！
+## Front-End
 
 https://novemberfall.github.io/Big-Front-End/
 
-## 记录我的后端！
+## Back-End
 
 https://novemberfall.github.io/Java-backEnd-fullstack/
 
