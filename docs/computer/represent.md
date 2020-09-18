@@ -66,6 +66,27 @@
 
 ![](img/2020-09-17-17-53-03.png)
 
+![](img/2020-09-17-18-05-02.png)
+
+![](img/2020-09-17-18-14-02.png)
+
+- Note: `35` represents `opecode` for `lw` in `Decimal` 
+- Note: `43` represents `opecode` for `sw` in `Decimal` 
+
+---
+
+### Example 2.5.2: Translating MIPS assembly language into machine language.
+
+![](img/2020-09-17-18-45-35.png)
+
+![](img/2020-09-17-18-51-58.png)
+
+
+
+
+
+
+
 
 
 
