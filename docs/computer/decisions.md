@@ -80,3 +80,36 @@
   than instruction. To test if register `$s2` is less than the constant `10`, we can just write
   - `slti $t0, $s2, 10    # $t0 = 1 if $s2 < 10`
 
+
+![](img/2020-09-18-11-41-52.png)
+
+- Note: `slti` expects a register followed by a constant, can not be reverse
+
+![](img/2020-09-18-11-45-52.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
