@@ -54,8 +54,29 @@
 
 ![](img/2020-09-18-10-40-12.png)
 
+---
 
+![](img/2020-09-18-11-09-35.png)
 
+![](img/2020-09-18-11-21-32.png)
 
+---
 
+###  More Conditional Operations
+
+![](img/2020-09-18-11-25-46.png)
+
+- The test for equality or inequality is probably the most popular test, but sometimes it is useful 
+  to see if a variable is less than another variable. For example, a for loop may want to test to 
+  see if the index variable is less than 0. Such comparisons are accomplished in MIPS assembly 
+  language with an instruction that compares two registers and sets a third register to 1 if the 
+  first is less than the second; otherwise, it is set to 0. The MIPS instruction is called set on 
+  less than, or **slt**. For example, 
+  - `slt  $t0, $s3, $s4   # $t0 = 1 if $s3 < $s4`
+
+- means that register `$t0` is set to `1` if the value in register `$s3` is less than the value in 
+  register `$s4`; otherwise, register `$t0` is set to `0`.
+  Constant operands are popular in comparisons, so there is an immediate version of the set on less 
+  than instruction. To test if register `$s2` is less than the constant `10`, we can just write
+  - `slti $t0, $s2, 10    # $t0 = 1 if $s2 < 10`
 
