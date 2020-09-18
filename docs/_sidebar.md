@@ -84,6 +84,7 @@
     * [2.3 Operations of the computer hardware ||](computer/operations1.md)
     * [2.4 Signed and unsigned numbers](computer/numbers.md)
     * [2.5 Representing instructions in the computer](computer/represent.md)
+    * [2.6 Logical operations](computer/logical.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
