@@ -70,8 +70,8 @@
   to see if a variable is less than another variable. For example, a for loop may want to test to 
   see if the index variable is less than 0. Such comparisons are accomplished in MIPS assembly 
   language with an instruction that compares two registers and sets a third register to 1 if the 
-  first is less than the second; otherwise, it is set to 0. The MIPS instruction is called set on 
-  less than, or **slt**. For example, 
+  first is less than the second; otherwise, it is set to 0. 
+  **The MIPS instruction is called set on less than**, or **slt**. For example, 
   - `slt  $t0, $s3, $s4   # $t0 = 1 if $s3 < $s4`
 
 - means that register `$t0` is set to `1` if the value in register `$s3` is less than the value in 
@@ -86,6 +86,10 @@
 - Note: `slti` expects a register followed by a constant, can not be reverse
 
 ![](img/2020-09-18-11-45-52.png)
+
+---
+
+![](img/2020-09-19-09-54-14.png)
 
 
 
