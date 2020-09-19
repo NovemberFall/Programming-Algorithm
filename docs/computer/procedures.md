@@ -39,7 +39,11 @@
 
 ![](img/2020-09-19-11-37-12.png)
 
+---
 
+![](img/2020-09-19-11-50-49.png)
+
+- Note: `jal` is for calling a procedure, not for returning from a procedure
 
 
 
