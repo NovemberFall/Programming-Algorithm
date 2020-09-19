@@ -12,10 +12,32 @@
   - **$ra**: one return address register to return to the point of origin
 
 
+- **jump-and-link instruction**: An instruction that jumps to an address and simultaneously saves 
+  the address of the following instruction in a register (`$ra` in MIPS).
 
 
+- **Return address**: A link to the calling site that allows a procedure to return to the proper 
+  address; in MIPS it is stored in register `$ra`.
 
+- **Caller**: The program that instigates a procedure and provides the necessary parameter values.
 
+- **Callee**: A procedure that executes a series of stored instructions based on parameters provided 
+  by the caller and then returns control to the caller.
+
+- **Program counter (PC)**: The register containing the address of the instruction in the program 
+  being executed.
+
+---
+
+![](img/2020-09-19-11-32-58.png)
+
+![](img/2020-09-19-11-34-40.png)
+
+![](img/2020-09-19-11-35-32.png)
+
+![](img/2020-09-19-11-36-33.png)
+
+![](img/2020-09-19-11-37-12.png)
 
 
 
