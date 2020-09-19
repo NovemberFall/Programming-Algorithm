@@ -7,9 +7,9 @@
 - registers are the fastest place to hold data in a computer, so we want to use them as much as 
   possible. MIPS software follows the following convention for procedure calling in allocating its 
   32 registers:
-  - **$a0 - $a3**: four argument registers in which to pass parameters
-  - **$v0 - $v1**: two value registers in which to return values
-  - **$ra**: one return address register to return to the point of origin
+  - `$a0 - $a3`: four argument registers in which to pass parameters
+  - `$v0 - $v1`: two value registers in which to return values
+  - `$ra`: one return address register to return to the point of origin
 
 
 - **jump-and-link instruction**: An instruction that jumps to an address and simultaneously saves 
