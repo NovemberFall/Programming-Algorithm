@@ -91,15 +91,33 @@
 
 ![](img/2020-09-19-09-54-14.png)
 
+![](img/2020-09-19-09-58-40.png)
 
+![](img/2020-09-19-10-03-58.png)
 
+![](img/2020-09-19-10-06-12.png)
 
+---
 
+### slti, slt, sltu, sltiu
 
+- Comparison instructions must deal with the dichotomy between signed and unsigned numbers. 
+  Sometimes a bit pattern with a 1 in the most significant bit represents a negative number and, of 
+  course, is less than any positive number, which must have a 0 in the most significant bit. With 
+  unsigned integers, on the other hand, a 1 in the most significant bit represents a number that is 
+  larger than any that begins with a 0. (We'll soon take advantage of this dual meaning of the most 
+  significant bit to reduce the cost of the array bounds checking.)
 
+- MIPS offers two versions of the set on less than comparison to handle these alternatives. Set on 
+  less than **(slt)** and set on less than immediate **(slti)** work with signed integers. Unsigned 
+  integers are compared using set on less than unsigned **(sltu)** and set on less than immediate 
+  unsigned **(sltiu)**
 
+![](img/2020-09-19-10-27-16.png)
 
+#### Bounds check shortcut
 
+![](img/2020-09-19-10-31-56.png)
 
 
 
