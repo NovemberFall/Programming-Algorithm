@@ -45,6 +45,10 @@
 
 - Note: `jal` is for calling a procedure, not for returning from a procedure
 
+---
 
+### Using more registers
+
+![](img/2020-09-19-23-26-51.png)
 
 
