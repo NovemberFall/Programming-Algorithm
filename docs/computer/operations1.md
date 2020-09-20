@@ -34,7 +34,7 @@
 
 ---
 
-- The data transfer instruction that copies data from memory to a register is traditionally 
+- **The data transfer instruction that copies data from memory to a register** is traditionally 
   called **load**. The format of the load instruction is the name of the operation followed by 
   the register to be loaded, then a constant and register used to access memory. The sum of the 
   constant portion of the instruction and the contents of the second register forms the memory 

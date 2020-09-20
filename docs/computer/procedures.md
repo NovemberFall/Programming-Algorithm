@@ -72,9 +72,9 @@
   where registers should be spilled or where old register values can be found. In MIPS, it is 
   register `$sp`.
 
+- **Push**: Add element to stack
 
-
-
+- **Pop**: Remove element from stack
 
 
 
