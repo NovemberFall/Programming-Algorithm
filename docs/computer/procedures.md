@@ -66,4 +66,21 @@
   popular that they have their own buzzwords for transferring data to and from the stack: placing 
   data onto the stack is called a `push`, and removing data from the stack is called a `pop`.
 
+- **Stack**: A data structure for spilling registers organized as a last-in- first-out queue.
+
+- **Stack pointer**: A value denoting the most recently allocated address in a stack that shows 
+  where registers should be spilled or where old register values can be found. In MIPS, it is 
+  register `$sp`.
+
+
+
+
+
+
+
+
+
+
+
+
 
