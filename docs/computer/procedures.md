@@ -51,4 +51,19 @@
 
 ![](img/2020-09-19-23-26-51.png)
 
+- Suppose a compiler needs more registers for a procedure than the four argument and two return 
+  value registers. Since we must cover our tracks after our mission is complete, any registers 
+  needed by the caller must be restored to the values that they contained before the procedure was 
+  invoked. 
+  假设一个编译器需要一个程序的寄存器多于四个参数和两个返回值寄存器。 由于我们必须在任务完成后掩盖我们的足迹，因此调用者所需
+  的所有寄存器都必须恢复为调用过程之前所包含的值。
+
+- The ideal data structure for spilling registers is a stack—a last-in-first-out queue. A stack 
+  needs a pointer to the most recently allocated address in the stack to show where the next 
+  procedure should place the registers to be spilled or where old register values are found. The 
+  stack pointer is adjusted by one word for each register that is saved or restored. MIPS software 
+  reserves **register 29** for the stack pointer, giving it the obvious name $sp. Stacks are so 
+  popular that they have their own buzzwords for transferring data to and from the stack: placing 
+  data onto the stack is called a `push`, and removing data from the stack is called a `pop`.
+
 
