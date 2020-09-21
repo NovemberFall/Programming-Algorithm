@@ -125,6 +125,57 @@
 
 - **Global pointer**: The register that is reserved to point to the static area.
 
+![](img/2020-09-20-20-55-13.png)
+
+---
+
+### Allocating space for new data on the stack
+
+
+- **Procedure frame**: Also called **activation record**. The segment of the stack containing a 
+  procedure's saved registers and local variables.
+
+
+- **Frame pointer**: A value denoting the location of the saved registers and local variables for a 
+  given procedure
+
+![](img/2020-09-20-21-32-24.png)
+
+![](img/2020-09-20-21-31-39.png)
+
+---
+
+### Allocating space for new data on the heap
+
+- In addition to automatic variables that are local to procedures, C programmers need space in 
+  memory for static variables and for dynamic data structures. The figure below shows the MIPS 
+  convention for allocation of memory. The stack starts in the high end of memory and grows down. 
+  The first part of the low end of memory is reserved, followed by the home of the MIPS machine 
+  code, traditionally called the text segment. Above the code is the static data segment, which is 
+  the place for constants and other static variables. Although arrays tend to be a fixed length and 
+  thus are a good match to the static data segment, data structures like linked lists tend to grow 
+  and shrink during their lifetimes. The segment for such data structures is traditionally called 
+  the heap, and it is placed next in memory. **Note that this allocation allows the stack and heap** 
+  **to grow toward each other**, thereby allowing the efficient use of memory as the two segments 
+  wax and wane.
+
+- **Text segment**: The segment of a UNIX object file that contains the machine language code for 
+  routines in the source file.
+
+![](img/2020-09-20-21-41-16.png)
+
+![](img/2020-09-20-21-46-15.png)
+
+---
+
+![](img/2020-09-20-21-50-30.png)
+
+
+
+
+
+
+
 
 
 
