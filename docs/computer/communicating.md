@@ -41,6 +41,8 @@ sb $t0, 0($gp)   # Write byte to destination
   use whenever convenient. When a compiler finds a leaf procedure, it exhausts all temporary 
   registers before using registers it must save.
 
+- 2.9.4: String copy example:
 
+![](img/2020-09-21-09-25-21.png)
 
 
