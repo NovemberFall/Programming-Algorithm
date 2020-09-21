@@ -98,10 +98,32 @@
 
 ### Nested procedures
 
+- Procedures that do not call others are called leaf procedures. Life would be simple if all 
+  procedures were leaf procedures, but they aren't. Just as a spy might employ other spies as part 
+  of a mission, who in turn might use even more spies, so do procedures invoke other procedures. 
+  Moreover, recursive procedures even invoke "clones" of themselves. Just as we need to be careful 
+  when using registers in procedures, more care must also be taken when invoking nonleaf procedures.
+
+- For example, suppose that the main program calls procedure A with an argument of 3, by placing the 
+  value 3 into register $a0 and then using jal A. Then suppose that procedure A calls procedure B 
+  via jal B with an argument of 7, also placed in $a0. Since A hasn't finished its task yet, there 
+  is a conflict over the use of register $a0. Similarly, there is a conflict over the return address 
+  in register $ra, since it now has the return address for B. Unless we take steps to prevent the 
+  problem, this conflict will eliminate procedure A's ability to return to its caller.
+
+- One solution is to push all the other registers that must be preserved onto the stack, just as we 
+  did with the saved registers. The caller pushes any argument registers ($a0 - $a3) or temporary 
+  registers ($t0 - $t9) that are needed after the call. The callee pushes the return address 
+  register $ra and any saved registers ($s0 - $s7) used by the callee. The stack pointer $sp is 
+  adjusted to account for the number of registers placed on the stack. Upon the return, the 
+  registers are restored from memory and the stack pointer is readjusted.
 
 
+#### Example 2.8.2: Compiling a recursive C procedure, showing nested procedure linking.
 
+![](img/2020-09-20-18-30-14.png)
 
+- **Global pointer**: The register that is reserved to point to the static area.
 
 
 
