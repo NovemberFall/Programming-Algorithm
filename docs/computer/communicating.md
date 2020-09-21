@@ -45,4 +45,42 @@ sb $t0, 0($gp)   # Write byte to destination
 
 ![](img/2020-09-21-09-25-21.png)
 
+---
+
+### Characters and strings in Java
+
+- Unicode is a universal encoding of the alphabets of most human languages. The figure below gives a 
+  list of Unicode alphabets; there are almost as many alphabets in Unicode as there are useful symbols 
+  in ASCII. To be more inclusive, Java uses Unicode for characters. By default, it uses 16 bits to 
+  represent a character.
+
+![](img/2020-09-21-09-29-46.png)
+
+
+- The MIPS instruction set has explicit instructions to load and store such 16- bit quantities, called 
+  halfwords. Load half `(lh)` loads a halfword from memory, placing it in the rightmost 16 bits of a 
+  register. Like load byte, load half `(lh)` treats the halfword as a signed number and thus 
+  sign-extends to fill the 16 leftmost bits of the register, while load halfword unsigned `(lhu)` works 
+  with unsigned integers. Thus, lhu is the more popular of the two. Store half `(sh)` takes a halfword 
+  from the rightmost 16 bits of a register and writes it to memory. We copy a halfword with the sequence
+
+
+```ruby
+lhu $t0, 0($sp)   # Read halfword (16 bits) from source
+sh  $t0, 0($gp)   # Write halfword (16 bits) to destination
+```
+
+![](img/2020-09-21-09-34-51.png)
+
+![](img/2020-09-21-09-36-35.png)
+
+
+
+
+
+
+
+
+
+
 
