@@ -34,3 +34,13 @@ sb $t0, 0($gp)   # Write byte to destination
 - Example 2.9.2: Compiling a string copy procedure, showing how to use C strings.
 
 ![](img/2020-09-21-07-47-10.png)
+
+- Since the procedure strcpy above is a leaf procedure, the compiler could allocate `i` to a 
+  temporary register and avoid saving and restoring `$s0`. Hence, instead of thinking of the `$t` 
+  registers as being just for temporaries, we can think of them as registers that the callee should 
+  use whenever convenient. When a compiler finds a leaf procedure, it exhausts all temporary 
+  registers before using registers it must save.
+
+
+
+
