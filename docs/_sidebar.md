@@ -88,6 +88,7 @@
     * [2.7 Instructions for making decisions](computer/decisions.md)
     * [2.8 Supporting procedures in computer hardware](computer/procedures.md)
     * [2.9 Communicating with people](computer/communicating.md)
+    * [2.10 MIPS addressing for 32-bit immediates and addresses](computer/32-bitImmediOpeds.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
