@@ -23,16 +23,34 @@
 
 ![](img/2020-09-21-13-04-02.png)
 
+---
 
 
+### MIPS addressing mode summary
 
+- **Addressing mode**: One of several addressing regimes delimited by their varied use of operands 
+  and/or addresses
 
+![](img/2020-09-21-14-16-03.png)
 
+![](img/2020-09-21-14-16-24.png)
 
+---
 
+### Decoding machine language
 
+- Sometimes you are forced to reverse-engineer machine language to create the original assembly 
+  language. One example is when looking at "core dump". The figure below shows the MIPS encoding of 
+  the fields for the MIPS machine language. This figure helps when translating by hand between 
+  assembly language and machine language.
 
+![](img/2020-09-21-15-14-11.png)
 
+- then we search on `MIPS_Green_Sheet`
+
+![](img/2020-09-21-15-14-23.png)
+
+![](img/2020-09-21-15-18-41.png)
 
 
 
