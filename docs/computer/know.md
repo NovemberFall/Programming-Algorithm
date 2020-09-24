@@ -185,3 +185,9 @@ Reverse     1110    1111
 ---
 
 
+## Translate `0xabcdef12` into decimal.
+
+
+
+
+
