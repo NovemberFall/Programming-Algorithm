@@ -79,7 +79,7 @@
 -----
 * [Computer Architecture](computer/intro.md)
     * [Background knowledge](computer/know.md)
-    * [2.1 Introduction](computer/introduction.md)
+    * [Chapter2 : Introduction](computer/introduction.md)
     * [2.2 Operations of the computer hardware](computer/operations.md)
     * [2.3 Operations of the computer hardware ||](computer/operations1.md)
     * [2.4 Signed and unsigned numbers](computer/numbers.md)
@@ -90,6 +90,7 @@
     * [2.9 Communicating with people](computer/communicating.md)
     * [2.10 MIPS addressing for 32-bit immediates and addresses](computer/32-bitImmediOpeds.md)
     * [2.13 A C sort example to put it all together](computer/c_sort.md)
+    * [Chapter3 : Introduction](computer/ch3.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)

@@ -17,6 +17,22 @@ void swap(int v[], int k)
 ![](img/2020-09-28-13-25-53.png)
 
 
+---
+
+#### The procedure sort (bubble)
+
+```c
+void sort (int v[], int n)
+{
+    int i, j;
+    for (i = 0; i < n; i += 1) {
+        for (j = i - 1; j >= 0 && v[j] > v[j + 1]; j -= 1) {
+            swap(v, j); 
+        }
+    } 
+}
+```
+
 
 
 
