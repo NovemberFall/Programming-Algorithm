@@ -80,6 +80,7 @@
 * [Computer Architecture](computer/intro.md)
     * [Background knowledge](computer/know.md)
     * [Chapter1 : 1.1 - 1.4](computer/ch1.md)
+    * [Chapter1 : 1.5 - 1.11](computer/ch1-2.md)
     * [Chapter2 : Introduction](computer/introduction.md)
     * [2.2 Operations of the computer hardware](computer/operations.md)
     * [2.3 Operations of the computer hardware ||](computer/operations1.md)
