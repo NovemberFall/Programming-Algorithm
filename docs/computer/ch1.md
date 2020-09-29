@@ -230,10 +230,22 @@
 
 ![](img/2020-09-29-08-02-38.png)
 
+- Hardware is the physical machine that runs software. 硬件是运行软件的物理机器。
+
+
 ![](img/2020-09-29-08-02-59.png)
 
 ![](img/2020-09-29-08-03-43.png)
 
+![](img/2020-09-29-08-10-27.png)
+
+---
+
+## From a high-level language to the language of hardware
+
+![](img/2020-09-29-08-11-17.png)
+
+![](img/2020-09-29-08-14-51.png)
 
 
 
