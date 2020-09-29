@@ -64,3 +64,33 @@
   - Amazon and Google
 
 
+![](img/2020-09-28-22-39-34.png)
+
+---
+
+![](img/2020-09-28-22-44-14.png)
+
+```
+1)
+- While previously true, computer advances have led to emphasis instead on parallel processors 
+  and hierarchical memory, which will be introduced later.
+- The amount of memory on computers has increased. So essentally, that what currently is 
+  emphasized by programmers is using parallel processing in terms of trading. So using 
+  the least amount of memory is not any more nowadays critcial for focus on performance.
+
+
+4)
+- false, A single processor can indeed switch between programs to support running multiple 
+  programs seemingly in parallel. However, these programs are actually run one at a time. 
+  A multicore microprocessor has multiple processors on a single chip, and thus can truly 
+  run programs in parallel, leading to faster performance.
+  - when you have multiple processor that that's not single processor. it's basically 
+    equivalent having many processes.
+
+5)
+- false, 
+  - Acronym(首字母缩写): A word constructed by taking the initial letters of a string of words. 
+    For example: RAM is an acronym for Random Access Memory, and CPU is an acronym for 
+    Central Processing Unit.
+``` 
+
