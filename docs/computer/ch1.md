@@ -255,20 +255,74 @@
 
 ![](img/2020-09-29-08-18-44.png)
 
+---
 
+![](img/2020-09-29-08-20-56.png)
 
+---
 
+## 1.4 Under the covers
 
+![](img/2020-09-29-08-23-31.png)
 
+![](img/2020-09-29-08-33-12.png)
 
+---
 
+#### Through the looking glass
 
+![](img/2020-09-29-08-33-52.png)
 
+![](img/2020-09-29-08-34-13.png)
 
+![](img/2020-09-29-08-34-36.png)
 
+---
 
+![](img/2020-09-29-08-37-13.png)
 
+![](img/2020-09-29-08-37-42.png)
 
+![](img/2020-09-29-08-37-53.png)
+
+![](img/2020-09-29-08-38-07.png)
+
+![](img/2020-09-29-08-38-19.png)
+
+---
+
+- **Dynamic random access memory (DRAM)**: Memory built as an integrated circuit; it provides random 
+  access to any location. Access times are 50 nanoseconds and cost per gigabyte in 2012 was $5 to 
+  $10.
+
+- **Cache memory**: A small, fast memory that acts as a buffer for a slower, larger memory.
+
+- **Static random access memory (SRAM)**: Also memory built as an integrated circuit, but faster and 
+  less dense than DRAM.
+
+![](img/2020-09-29-08-42-10.png)
+
+![](img/2020-09-29-08-42-39.png)
+
+---
+
+#### 1.4.8: Memories.
+
+![](img/2020-09-29-08-43-49.png)
+
+- **Volatile memory**: Storage, such as DRAM, that retains data only if it is receiving power.
+  - **易失性存储器**：仅在通电时才保留数据的存储器（例如DRAM）。
+
+- **Nonvolatile memory**: A form of memory that retains data even in the absence of a power 
+  source and that is used to store programs between runs. A DVD disk is nonvolatile.
+  - **非易失性存储器**：一种存储器形式，即使没有电源也可以保留数据，并且用于在两次运行之间存储程序。 
+    DVD磁盘是非易失性的。
+
+![](img/2020-09-29-08-48-55.png)
+
+![](img/2020-09-29-08-50-33.png)
+
+![](img/2020-09-29-08-52-42.png)
 
 
 
