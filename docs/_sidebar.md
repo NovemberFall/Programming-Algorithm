@@ -101,5 +101,6 @@
     * [Linear Model](mlearning/linear.md)
     * [NumPy](mlearning/numpy.md)
     * [setting up environment TensorFlow](mlearning/tensorflow.md)
+    * [Deep Learning](mlearning/deep.md)
 
 

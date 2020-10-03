@@ -31,8 +31,31 @@ np.savez('TF_intro', inputs=generated_inputs, targets=generated_targets)
 - The extension that TF2 likes is `.npz`
   - This is a NumPy’s file type used to store n-dimensional arrays
   - we need to preprocess data so to become an .npz file type,
-    - np.savez does just that
+    - `np.savez` does just that
 
 
+![](img/2020-10-03-15-37-25.png)
+
+---
+
+### Let's train the model
+
+![](img/2020-10-03-16-22-35.png)
+
+- we have `x` value and `z` value
+
+![](img/2020-10-03-16-29-08.png)
+
+- [There are several optimizer that you can use:](https://www.tensorflow.org/api_docs/python/tf/keras/optimizers)
+
+![](img/2020-10-03-16-30-12.png)
+
+![](img/2020-10-03-16-31-44.png)
+
+![](img/2020-10-03-16-32-52.png)
+
+![](img/2020-10-03-16-48-14.png)
+
+- we can set different learning rate
 
 
