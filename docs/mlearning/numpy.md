@@ -16,7 +16,7 @@
 
 ### Lecture 4 , exmaple
 
-```py
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -42,7 +42,7 @@ inputs = np.column_stack((x_values, z_values))
 ## sample code
 
 
-```py
+```python
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -96,4 +96,18 @@ for i in range (100):
 
 - NOTE: your output will very likely be different, because different random weights, biases and 
   points would be generated 
+
+
+![](img/2020-10-03-14-33-19.png)
+
+![](img/2020-10-03-14-33-44.png)
+
+![](img/2020-10-03-14-34-05.png)
+
+
+
+
+
+
+
 
