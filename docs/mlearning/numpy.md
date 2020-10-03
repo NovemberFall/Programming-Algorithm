@@ -86,3 +86,14 @@ for i in range (100):
     print(weights, biases)   # this is very close to 4 , -3   +2
 
 ```
+
+---
+
+![](img/2020-10-03-14-31-22.png)
+
+- If you run the previous code, you should see a series of numbers (the output of the Loss function) 
+  that decreases constantly Try different 𝜂 values to see what happens.
+
+- NOTE: your output will very likely be different, because different random weights, biases and 
+  points would be generated 
+
