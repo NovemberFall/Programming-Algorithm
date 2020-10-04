@@ -1,0 +1,44 @@
+## Deep Learning
+
+- linear regression model 
+  - had two inputs and one output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
