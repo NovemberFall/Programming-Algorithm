@@ -93,11 +93,71 @@ scaled_inputs = preprocessing.scale(unscaled_inputs_equal_priors)
 ### the result will be interesting ...
 
 
+# Shuffle the data
+
+# When the data was collected it was actually arranged by date
+# We want to shuffle the indices of the data, so the data is not arranged in any way when we feed it
+shuffled_indices = np.arange(scaled_inputs.shape[0]) # np.arange([start], stop), is a method that reuturns a evenly spaced values
+np.random.shuffle(shuffled_indices)
+
+shuffled_inputs = scaled_inputs[shuffled_indices]
+shuffled_targets = targets_equal_priors[shuffled_indices]
 
 
 
+
+# Splitting the data
+
+samples_count = shuffled_inputs.shape[0]   # we count the total number of samples
+
+# we count the samples in each subset, assuming we want 80-10-10 distribution of training, validation, and test
+train_samples_count = int(0.8 * samples_count)
+validation_samples_count = int(0.1 * samples_count)
+
+# test_samples_count = samples_count - validation_samples_count - train_samples_count 
+test_samples_count = samples_count - train_samples_count - validation_samples_count
+# The 'test' dataset contains all remaining data
+
+
+#we create variables that record the inputs and targets for training
+#In our shuffled dataset, they are the first train_samples_count observations
+train_inputs = shuffled_inputs[:train_samples_count]
+train_targets = shuffled_targets[:train_samples_count]
+
+# We create variables that record the inputs and targets for validation
+# They are the next "validation_samples_count" observations, folllowing the "train_samples_count" we already assigned
+validation_inputs = shuffled_inputs[train_samples_count:train_samples_count+validation_samples_count]
+validation_targets = shuffled_targets[train_samples_count:train_samples_count+validation_samples_count]
+
+# We create variables that record the inputs and targets for test
+# They are everything that is remaining
+test_inputs = shuffled_inputs[train_samples_count+validation_samples_count:]
+test_targets = shuffled_targets[train_samples_count+validation_samples_count:]
+
+
+
+# We print the number of targets that are 1s, the total number of samples, 
+# and the proportion for training, validation, and test.
+#      The output should be close to 50% for all three
+print(np.sum(train_targets), train_samples_count, np.sum(train_targets) / train_samples_count)
+print(np.sum(validation_targets), validation_samples_count, np.sum(validation_targets) / validation_samples_count)
+print(np.sum(test_targets), test_samples_count, np.sum(test_targets) / test_samples_count)
+
+
+
+
+
+# Saving in .npz format
+# Finally, we save the three datasets in *.npz format
+np.savez('Audiobooks_data_train', inputs=train_inputs, targets=train_targets)
+np.savez('Audiobooks_data_validation', inputs=validation_inputs, targets=validation_targets)
+np.savez('Audiobooks_data_test', inputs=test_inputs, targets=test_targets)
 ```
 
 
+![](img/2020-10-11-14-21-28.png)
 
-![](img/2020-10-11-14-11-57.png)
+![](img/2020-10-11-14-24-40.png)
+
+
+
