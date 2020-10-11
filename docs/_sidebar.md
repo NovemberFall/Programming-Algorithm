@@ -102,5 +102,6 @@
     * [NumPy](mlearning/numpy.md)
     * [setting up environment TensorFlow](mlearning/tensorflow.md)
     * [first machine learning algorithm](mlearning/deep.md)
+    * [TensorFlow](mlearning/tensorFlow1.md)
 
 
