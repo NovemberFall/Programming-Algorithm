@@ -27,7 +27,77 @@
   - Targets: `1` if a customer bought again in the last 6 months of data, `0` if a customer did 
     not buy again
 
+---
+
+## Outline the business case
+
+![](img/2020-10-11-12-04-29.png)
+
+![](img/2020-10-11-12-42-57.png)
+
+
+---
+
+## Balancing the dataset
+
+- What accuracy do you expect?
+  - 90% very good
+
+
+---
+
+## Preprocessing the data
+
+
+```py
+import numpy as np
+from sklearn import preprocessing
+
+
+
+raw_csv_data = np.loadtxt('Business_case_dataset.csv', delimiter=',')
+
+unscaled_inputs_all = raw_csv_data[:,1:-1]
+# the inputs are all columns in the csv, except for the first one [:, 0]
+# (which is just the arbitrary customer IDs that bear no useful information), 
+# and the last one [:, -1] (which is our targets)
+targets_all = raw_csv_data[:,-1]
+
+
+# Balancing our data
+num_one_targets = int(np.sum(targets_all))
+# we count how many targets are 1 (meaning that the customer did buy again)
+zero_targets_counter = 0 # set a counter for targets taht are 0 (meaning that the customer didn't buy agian)
+
+# a list
+indices_to_remove = [] # we want to create a "balanced" dataset, so we will have to remove
+# some input/target pairs, and we declare that will do that, 
+
+for i in range(targets_all.shape[0]):  # we count the number of targest that are 0
+    if targets_all[i] ==0:
+        zero_targets_counter += 1  # we want to increase 0 counter by 1, if the target is 0
+        if zero_targets_counter > num_one_targets: #if the number of 0 is bigger than the num of 1, we want to take note of that index
+            indices_to_remove.append(i)
+
+unscaled_inputs_equal_priors = np.delete(unscaled_inputs_all, indices_to_remove, axis = 0)
+targets_equal_priors = np.delete (targets_all, indices_to_remove, axis=0)
+# we create two new variables, one that will contain the inputs, and one that will contain the targets
+# we delete all indices that we marked "to remove" in the loop above
+
+
+
+# Standardizing 标准化 the inputs 
+# that's the only palce we use sklearn functionality, we will take advantage of its preprocessing capabilities
+scaled_inputs = preprocessing.scale(unscaled_inputs_equal_priors)
+### At the end of my business case, I can try to run the algorithm WITHOUT this line of code
+### the result will be interesting ...
 
 
 
 
+
+```
+
+
+
+![](img/2020-10-11-14-11-57.png)
