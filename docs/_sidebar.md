@@ -104,5 +104,6 @@
     * [first machine learning algorithm](mlearning/deep.md)
     * [TensorFlow](mlearning/tensorFlow1.md)
     * [The MNIST example](mlearning/MNIST.md)
+    * [Business case, audio books](mlearning/audiobooks.md)
 
 
