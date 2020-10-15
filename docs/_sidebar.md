@@ -95,6 +95,7 @@
     * [2.10 MIPS addressing for 32-bit immediates and addresses](computer/32-bitImmediOpeds.md)
     * [2.13 A C sort example to put it all together](computer/c_sort.md)
     * [Chapter3 : Introduction](computer/ch3.md)
+    * [3.2 Addition and subtraction](computer/addSub.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
@@ -105,5 +106,6 @@
     * [TensorFlow](mlearning/tensorFlow1.md)
     * [The MNIST example](mlearning/MNIST.md)
     * [Business case, audio books](mlearning/audiobooks.md)
+    * [create, test model](mlearning/testModel.md)
 
 
