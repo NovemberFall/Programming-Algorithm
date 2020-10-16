@@ -40,17 +40,41 @@
   16-bit immediate field is sign extended to 32 bits, just like **addi, slti, and sltiu**. Thus, the 
   immediate field is signed, even if the operation is "unsigned."
 
+---
 
+- The computer designer must decide how to handle arithmetic overflows. Although some languages like C 
+  and Java ignore integer overflow, languages like Ada and Fortran require that the program be 
+  notified. The programmer or the programming environment must then decide what to do when overflow 
+  occurs.
 
+- MIPS detects **overflow** with an **exception**, also called an interrupt on many computers. An 
+  exception or interrupt is essentially an unscheduled procedure call. The address of the instruction 
+  that overflowed is saved in a register, and the computer jumps to a predefined address to invoke the 
+  appropriate routine for that exception. The interrupted address is saved so that in some situations 
+  the program can continue after corrective code is executed.
 
+- MIPS includes a register called the exception program counter (EPC) to contain the address of the 
+  instruction that caused the exception. The instruction move from system control (mfc0) is used to 
+  copy EPC into a general-purpose register so that MIPS software has the option of returning to the 
+  offending instruction via a jump register instruction.
 
+![](img/2020-10-15-15-55-07.png)
 
+![](img/2020-10-15-15-48-06.png)
 
+![](img/2020-10-15-15-52-41.png)
 
+![](img/2020-10-15-16-01-14.png)
 
+![](img/2020-10-15-16-07-01.png)
 
+---
 
+![](img/2020-10-15-16-09-54.png)
 
+![](img/2020-10-15-16-12-34.png)
+
+![](img/2020-10-15-16-14-01.png)
 
 
 
