@@ -78,9 +78,15 @@
 
 ![](img/2020-10-16-11-53-34.png)
 
+![](img/2020-10-16-14-44-14.png)
 
 
+- C doesn't interrupt excution when overflows happened, it is always up to you as the programmer to 
+  detect overflows 
 
+---
+
+![](img/2020-10-16-14-52-48.png)
 
 
 

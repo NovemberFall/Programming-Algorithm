@@ -96,6 +96,7 @@
     * [2.13 A C sort example to put it all together](computer/c_sort.md)
     * [Chapter3 : Introduction](computer/ch3.md)
     * [3.2 Addition and subtraction](computer/addSub.md)
+    * [3.3 Multiplication](computer/multipl.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
