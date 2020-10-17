@@ -97,6 +97,7 @@
     * [Chapter3 : Introduction](computer/ch3.md)
     * [3.2 Addition and subtraction](computer/addSub.md)
     * [3.3 Multiplication](computer/multipl.md)
+    * [3.4 Division](computer/divi.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
