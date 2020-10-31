@@ -30,21 +30,48 @@
 
 ![](img/2020-10-26-00-23-31.png)
 
+![](img/2020-10-30-09-49-11.png)
+
 ---
 
 ![](img/2020-10-26-00-27-05.png)
 
 ![](img/2020-10-30-09-32-20.png)
 
+---
+
+### MIPS divide instructions ignore overflow 
+
+- MIPS divide instructions ignore overflow, so software must determine whether the quotient is too 
+  large. In addition to overflow, division can also result in an improper calculation: division by 0. 
+  Some computers distinguish these two anomalous events. MIPS software must check the divisor to 
+  discover division by 0 as well as overflow.
+
+---
+
+![](img/2020-10-30-20-48-46.png)
+
+![](img/2020-10-30-20-56-02.png)
 
 
 
+### Divide in MIPS
+
+- The only requirement is a 64-bit register that can shift left or right and a 32-bit ALU that adds or 
+  subtracts. Hence, MIPS uses the 32-bit Hi and 32-bit Lo registers for both multiply and divide.
+
+- As we might expect from the algorithm above, `Hi` contains the remainder, and `Lo` contains the 
+  quotient after the divide instruction completes.
+
+- To handle both signed integers and unsigned integers, MIPS has two instructions: divide (div) and 
+  divide unsigned (divu). The MIPS assembler allows divide instructions to specify three registers, 
+  generating the mflo or mfhi instructions to place the desired result into a general-purpose register.
 
 
+![](img/2020-10-30-20-59-47.png)
 
 
-
-
+![](img/2020-10-30-21-08-41.png)
 
 
 
