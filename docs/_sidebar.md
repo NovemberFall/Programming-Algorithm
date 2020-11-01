@@ -98,7 +98,8 @@
     * [3.2 Addition and subtraction](computer/addSub.md)
     * [3.3 Multiplication](computer/multipl.md)
     * [3.4 Division](computer/divi.md)
-    * [3.5 Floating point](computer/float.md)
+    * [3.5 Floating point: Part A](computer/float.md)
+    * [3.5 Floating point: Part B](computer/float1.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
