@@ -100,6 +100,7 @@
     * [3.4 Division](computer/divi.md)
     * [3.5 Floating point: Part A](computer/float.md)
     * [3.5 Floating point: Part B](computer/float1.md)
+    * [Appendix B](computer/appb.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
