@@ -100,6 +100,7 @@
     * [3.4 Division](computer/divi.md)
     * [3.5 Floating point: Part A](computer/float.md)
     * [3.5 Floating point: Part B](computer/float1.md)
+    * [4.1 The Processor](computer/processor.md)
     * [Appendix B.2](computer/appb.md)
     * [Appendix B.3](computer/appb1.md)
 
