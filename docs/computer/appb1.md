@@ -10,6 +10,10 @@
 
 - A combinational circuit can be built from components like AND, OR, and NOT gates, known as **logic gates**.
 
+![](img/2020-11-08-16-03-57.png)
+
+![](img/2020-11-08-16-09-35.png)
+---
 
 ![](img/2020-11-02-12-54-19.png)
 
@@ -30,13 +34,27 @@
 
 - (d), since 11 is 3 => i3
 
-![](img/2020-11-02-13-03-54.png)
 
 ![](img/2020-11-02-13-13-19.png)
 
+![](img/2020-11-08-14-28-41.png)
 
 
+---
+
+![](img/2020-11-08-17-28-23.png)
+![](img/2020-11-08-17-24-49.png)
+
+```
+B.7 [10] <COD §§B.2, B.3> Construct the truth table for a four-input odd-parity function 
+(see COD Section B.9 (Memory elements: SRAMs and DRAMs) for a description of parity).
+```
 
 
+---
 
+![](img/2020-11-08-17-30-43.png)
 
+![](img/2020-11-08-17-30-55.png)
+
+---

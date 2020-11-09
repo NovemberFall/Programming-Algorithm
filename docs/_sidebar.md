@@ -103,6 +103,7 @@
     * [4.1 The Processor](computer/processor.md)
     * [Appendix B.2](computer/appb.md)
     * [Appendix B.3](computer/appb1.md)
+    * [Appendix B.5](computer/appb2.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
