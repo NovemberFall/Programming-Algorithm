@@ -115,5 +115,7 @@
     * [The MNIST example](mlearning/MNIST.md)
     * [Business case, audio books](mlearning/audiobooks.md)
     * [create, test model](mlearning/testModel.md)
+    * [Hidden Markov models in Python](mlearning/hmm.md)
+    * [Markov Models](mlearning/markov.md)
 
 
