@@ -12,3 +12,43 @@
 ![](img/2020-11-12-01-50-11.png)
 
 - so far, we will focus exclusively on first order Markov models
+
+---
+
+
+## Markov Models
+
+![](img/2020-11-12-01-55-51.png)
+
+![](img/2020-11-12-01-59-58.png)
+
+### Training a Markov Model
+
+![](img/2020-11-12-21-03-01.png)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
