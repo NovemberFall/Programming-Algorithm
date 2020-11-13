@@ -117,5 +117,6 @@
     * [create, test model](mlearning/testModel.md)
     * [Hidden Markov models in Python](mlearning/hmm.md)
     * [Markov Models](mlearning/markov.md)
+    * [Markov Models: Example Problems and Applications](mlearning/markov1.md)
 
 

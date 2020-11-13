@@ -29,7 +29,21 @@
 ---
 
 
+![](img/2020-11-12-21-35-42.png)
 
+![](img/2020-11-12-21-35-52.png)
+
+- v = vocabulary size = # of distinct words,   We will use "M" more generally
+
+---
+
+![](img/2020-11-12-21-40-32.png)
+
+![](img/2020-11-12-21-40-44.png)
+
+![](img/2020-11-12-21-45-56.png)
+
+---
 
 
 
