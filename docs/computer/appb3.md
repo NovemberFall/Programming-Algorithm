@@ -16,7 +16,10 @@
 
 - Start from steady state
 
+![](img/2020-11-15-14-51-49.png)
 
+- output from R is 1
+- output from S is 0
 
 
 
