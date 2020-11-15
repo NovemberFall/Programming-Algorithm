@@ -105,6 +105,20 @@ for i in range (100):
 ![](img/2020-10-03-14-34-05.png)
 
 
+---
+
+
+
+## What does [:,:-1] and [:,-1] mean?
+
+- `[:,:-1]` : This will take all rows and all but the last column.
+- `[:,-1]` : This will take all rows and all columns.
+
+- `:` denotes "all", and `-1` in indexing means the last row/column.
+
+- However, ":-1" in `[:,:-1]` does arithmetic operation of indexes - which here means 'total no of columns - 1'.
+
+
 
 
 

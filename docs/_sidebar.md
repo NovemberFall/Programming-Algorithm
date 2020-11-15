@@ -104,6 +104,7 @@
     * [Appendix B.2](computer/appb.md)
     * [Appendix B.3](computer/appb1.md)
     * [Appendix B.5](computer/appb2.md)
+    * [Appendix B.8](computer/appb3.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
@@ -119,5 +120,6 @@
     * [Markov Models](mlearning/markov.md)
     * [Markov Models: Example Problems and Applications](mlearning/markov1.md)
     * [Hidden Markov models for Discrete Observations](mlearning/obs.md)
+    * [The Forward-Backward Algorithm](mlearning/forward-backward.md)
 
 
