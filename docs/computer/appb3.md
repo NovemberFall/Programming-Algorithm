@@ -18,11 +18,36 @@
 
 ![](img/2020-11-15-14-51-49.png)
 
-- output from R is 1
+- intput of R is 0, output from R is 1, output 1 send back to the bottom
 - output from S is 0
 
+---
 
+- R(reset) pulses ON
 
+![](img/2020-11-15-15-01-11.png)
+
+![](img/2020-11-15-15-01-41.png)
+
+- oupt of R is 0, sned back to the bottom
+
+![](img/2020-11-15-15-05-52.png)
+
+![](img/2020-11-15-15-06-40.png)
+
+![](img/2020-11-15-15-07-26.png)
+
+---
+
+- S pulses ON
+
+![](img/2020-11-15-15-10-40.png)
+
+![](img/2020-11-15-17-09-23.png)
+
+- s set Q to be 1, and then 1 sent back to bottom
+
+![](img/2020-11-15-17-36-54.png)
 
 
 
