@@ -103,6 +103,7 @@
     * [4.1-4.2 The Processor](computer/processor.md)
     * [4.3 Building a datapath](computer/datapath.md)
     * [4.4 A simple implementation scheme](computer/scheme.md)
+    * [5.1 Memory Hierarchy](computer/ch5.md)
     * [Appendix B.2](computer/appb.md)
     * [Appendix B.3](computer/appb1.md)
     * [Appendix B.5](computer/appb2.md)
@@ -123,5 +124,6 @@
     * [Markov Models: Example Problems and Applications](mlearning/markov1.md)
     * [Hidden Markov models for Discrete Observations](mlearning/obs.md)
     * [The Forward-Backward Algorithm](mlearning/forward-backward.md)
+    * [Discrete HMM in Code](mlearning/hmmcode.md)
 
 
