@@ -12,8 +12,16 @@
 ![](img/2020-11-23-22-15-21.png)
 
 
+- **Temporal locality** 时间局部性: The locality principle stating that if a data location is referenced then it will tend to be referenced again soon.
 
-  
+- **Spatial locality** 空间局部性: The locality principle stating that if a data location is referenced, data locations with nearby addresses will tend to be referenced soon.
+
+![](img/2020-11-23-23-01-42.png)  
+
+---
+
+- **Memory hierarchy** 分级存储器体系: A structure that uses multiple levels of memories; as the distance from the processor increases, the size of the memories and the access time both increase.
+
 
 
 
