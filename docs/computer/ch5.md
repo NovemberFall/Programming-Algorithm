@@ -23,7 +23,7 @@
 - **Memory hierarchy** 分级存储器体系: A structure that uses multiple levels of memories; as the distance from the processor increases, the size of the memories and the access time both increase.
 
 
-- Block (or line): The minimum unit of information that can be either present or not present in a cache.
+- **Block (or line)**: The minimum unit of information that can be either present or not present in a cache.
 
 
 ![](img/2020-11-23-23-19-48.png)
@@ -44,7 +44,7 @@
 
 ![](img/2020-11-24-02-50-53.png)
 
-
+![](img/2020-11-25-14-00-13.png)
 
 
 
