@@ -46,6 +46,35 @@
 
 ![](img/2020-11-25-14-00-13.png)
 
+![](img/2020-11-25-14-03-47.png)
+
+---
+
+- **Hit rate** [计] 命中率: The fraction of memory accesses found in a level of the memory hierarchy.
+- **Miss rate**  : The fraction of memory accesses not found in a level of the memory hierarchy.
+
+- **Hit time**: The time required to access a level of the memory hierarchy, including the time needed to determine 
+  whether the access is a hit or a miss.
+  - Hit time is the time to access the upper level of the memory hierarchy, which includes the time needed to determine 
+    whether the access is a hit or a miss (that is, the time needed to look through the books on the desk). 
+
+- **Miss penalty** 缺失损失): The time required to fetch a block into a level of the memory hierarchy from the lower 
+  level, including the time to access the block, transmit it from one level to the other, insert it in the level that 
+  experienced the miss, and then pass the block to the requestor.
+  - The miss penalty is the time to replace a block in the upper level with the corresponding block from the lower 
+    level, plus the time to deliver this block to the processor (or the time to get another book from the shelves and 
+    place it on the desk).
+
+![](img/2020-11-25-14-16-26.png)
+
+![](img/2020-11-25-17-51-41.png)
+
+![](img/2020-11-25-18-04-49.png)
+
+
+
+
+
 
 
 
