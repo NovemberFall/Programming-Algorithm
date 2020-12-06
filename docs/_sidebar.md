@@ -106,6 +106,7 @@
     * [5.1 Memory Hierarchy](computer/ch5.md)
     * [5.2 Memory technologies](computer/ch5-2.md)
     * [5.3 The basics of caches](computer/ch5-3.md)
+    * [5.4 Measuring and improving cache performance](computer/ch5-4.md)
     * [Appendix B.2](computer/appb.md)
     * [Appendix B.3](computer/appb1.md)
     * [Appendix B.5](computer/appb2.md)
