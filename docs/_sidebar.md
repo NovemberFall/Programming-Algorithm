@@ -110,6 +110,8 @@
     * [5.7 Virtual memory](computer/ch5-7.md)
     * [5.5 Dependable memory hierarchy](computer/ch5-5.md)
     * [5.11 Parallelism and memory hierarchy](computer/ch5-11.md)
+    * [Chapter6 : Parallel Processors from Client to Cloud](computer/ch6.md)
+    * [6.1 ](computer/ch6-1.md)
     * [Appendix B.2](computer/appb.md)
     * [Appendix B.3](computer/appb1.md)
     * [Appendix B.5](computer/appb2.md)
