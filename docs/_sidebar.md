@@ -112,6 +112,7 @@
     * [Appendix B.3](computer/appb1.md)
     * [Appendix B.5](computer/appb2.md)
     * [Appendix B.8](computer/appb3.md)
+    * [Appendix B.9](computer/appb4.md)
 
 -----
 * [Machine Learning](mlearning/intro.md)
