@@ -109,6 +109,7 @@
     * [5.4 Measuring and improving cache performance](computer/ch5-4.md)
     * [5.7 Virtual memory](computer/ch5-7.md)
     * [5.5 Dependable memory hierarchy](computer/ch5-5.md)
+    * [5.11 Parallelism and memory hierarchy](computer/ch5-11.md)
     * [Appendix B.2](computer/appb.md)
     * [Appendix B.3](computer/appb1.md)
     * [Appendix B.5](computer/appb2.md)
