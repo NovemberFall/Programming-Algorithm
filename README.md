@@ -33,3 +33,8 @@ https://novemberfall.github.io/JavaScript-ObjectOriented/
 
 ## Java Object-Oriented
 https://novemberfall.github.io/Java-ObjectOriented/
+
+
+## Python
+
+https://novemberfall.github.io/Python-100days/
