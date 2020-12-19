@@ -1,8 +1,6 @@
 # Programming-Algorithm
 C/C++ algorithm
 
-docsifyjs 
-
 ---
 ## Algorithm with java c++ javascript
 https://novemberfall.github.io/programming
@@ -32,3 +30,6 @@ https://novemberfall.github.io/Java-ObjectOriented/
 https://novemberfall.github.io/LeetCode-NoteBook
 
 
+## Python
+
+https://novemberfall.github.io/Python-100days/
