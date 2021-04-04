@@ -33,3 +33,9 @@ https://novemberfall.github.io/LeetCode-NoteBook
 ## Python
 
 https://novemberfall.github.io/Python-100days/
+
+
+
+## MySQL NoSQL
+
+https://novemberfall.github.io/sql/
