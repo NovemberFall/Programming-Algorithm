@@ -25,7 +25,6 @@
         * [624. Fibonacci Number Lite Recursion](ch3/fibonacci.md)
         * [13. power of b Recursion](ch3/pow.md)
         * [653. Reverse LinkedList](ch3/ListReverse.md)
-        * [34. Reverse Linked List (iterative)](ch3/ListReverse1.md)
     * [Chapter4：Queue](ch4/intro.md)
         * [551. Maximum Number in a Queue](ch4/max.md)
         * [31. Queue By Two Stacks](ch4/queueByTwoStack.md)
