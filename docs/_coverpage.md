@@ -12,6 +12,8 @@
 - Object-Oritened
 - Programming
 - C/C++  
+- Python
+- Machine Learning
 
 [GitHub](https://github.com/NovemberFall)
 [Get Started](README.md)
